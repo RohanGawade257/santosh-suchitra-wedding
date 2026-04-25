@@ -145,8 +145,8 @@ export default function App() {
               <section className="text-center space-y-6">
                 <div className="space-y-1 text-sm md:text-base font-semibold text-brand-primary">
                   <p>॥ श्री गजानन प्रसन्न ॥</p>
-                  <p>॥ श्री देवी सातेरी भगवती प्रसन्न ॥</p>
-                  <p>॥ श्री देव रामेश्वर प्रसन्न ॥</p>
+                  <p>॥ श्री चेतन्य कुलदेवताय प्रसन्न ॥ ॥ श्री देवी सातेरी भगवती प्रसन्न ॥</p>
+                  <p>॥ श्री देव मुळपुरुष प्रसन्न ॥ ॥ श्री देव रामेश्वर प्रसन्न ॥</p>
                 </div>
 
                 <div className="py-4">
@@ -164,7 +164,7 @@ export default function App() {
                     <div className="w-8 h-px bg-brand-primary"></div>
                   </div>
                   <h2 className="text-4xl font-bold text-brand-text leading-tight">
-                    चि. सौ. का. सुचित्रा
+                    चि. सौ. कां. सुचित्रा
                   </h2>
                 </div>
 
@@ -203,7 +203,7 @@ export default function App() {
                   <span className="inline-block px-3 py-1 bg-brand-saffron/10 text-brand-primary font-bold text-sm rounded-full mb-3">
                     वधू
                   </span>
-                  <h3 className="text-2xl font-bold text-brand-maroon mb-3">चि. सौ. का. सुचित्रा</h3>
+                  <h3 className="text-2xl font-bold text-brand-maroon mb-3">चि. सौ. कां. सुचित्रा</h3>
                   <p className="text-sm leading-relaxed text-brand-muted">
                     कै. सुरेश राऊळ<br />
                     मु. आरोस – गाववाडी,<br />
@@ -271,10 +271,11 @@ export default function App() {
                   <MapPin size={28} />
                 </div>
                 <h3 className="text-2xl font-bold text-brand-maroon mb-4">विवाह स्थळ</h3>
-                <p className="font-bold text-lg mb-2">देवराणी मंगल कार्यालय</p>
+                <p className="font-bold text-lg mb-2">देवांगी मंगल कार्यालय</p>
                 <p className="text-sm text-brand-muted mb-6 leading-relaxed">
-                  कणकवली, मुंबई–गोवा हायवे / पेट्रोल पंपाजवळ,<br />
-                  जि. सिंधुदुर्ग
+                  इन्सुली<br />
+                  (मुंबई गोवा हायवे) पेट्रोल पंपाजवळ<br />
+                  ता. सावंतवाडी, जि. सिंधुदुर्ग
                 </p>
                 <a 
                   href="https://maps.app.goo.gl/hLBfQwrqyoQcV1VP6?g_st=ac" 
@@ -297,8 +298,13 @@ export default function App() {
                   शिरपवाडी,<br />
                   ता. सावंतवाडी, जि. सिंधुदुर्ग
                 </p>
-                <div className="bg-brand-cream/80 py-2 px-4 rounded-lg inline-block text-xs font-medium text-brand-maroon border border-brand-maroon/20">
+                <div className="bg-brand-cream/80 py-2 px-4 rounded-lg inline-block text-xs font-medium text-brand-maroon border border-brand-maroon/20 mb-4">
                   टीप: निवासस्थानाहून बस सकाळी ९.०० वाजता सुटेल.
+                </div>
+                
+                <div className="pt-4 mt-2 border-t border-brand-gold-border/20 text-sm">
+                  <p className="font-bold text-brand-maroon mb-1">व्यवस्थापक:</p>
+                  <p className="text-brand-muted">सरमळे-नागरतास - शिरपवाडी ग्रामविकास मंडळ</p>
                 </div>
               </section>
             </RevealOnScroll>
@@ -359,7 +365,7 @@ export default function App() {
                 </div>
                 <h3 className="text-lg font-bold text-brand-maroon mb-4 mt-2">आमच्या दादा / मामाच्या लग्नाला यायचं हं...!</h3>
                 <p className="text-sm font-medium leading-relaxed text-brand-primary">
-                  नक्षत्र, गणेश, सोहम, रोहन, रितिक, मयुरी, तनमयी, कनिष्का, श्रावणी, श्रेयश, गौरी
+                  नक्षत्र, गणेश, सोहम, रोहन, रितिक, मयुरी, तनमयी, कनिष्का, श्रावणी, श्रेया, श्रेयश, गौरी
                 </p>
               </section>
             </RevealOnScroll>
@@ -369,7 +375,7 @@ export default function App() {
               <section className="text-center py-6">
                 <h3 className="text-xl font-bold text-brand-primary mb-3">निमंत्रक</h3>
                 <p className="font-medium text-brand-muted">
-                  सागर, आदेश, गणेश, गौरेश, निलेश
+                  सागर, आश्लेष, गणेश, गौरेश, निलेश
                 </p>
               </section>
             </RevealOnScroll>
