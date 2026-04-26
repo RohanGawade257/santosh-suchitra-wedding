@@ -38,11 +38,10 @@ const BottomNav = ({ activeSection, onNavigate }) => {
             <button
               key={id}
               onClick={() => onNavigate(id)}
-              className={`flex flex-col items-center justify-center w-[72px] h-[64px] rounded-2xl transition-all duration-300 ease-out ${
-                isActive 
-                  ? 'bg-gradient-to-br from-brand-saffron to-brand-maroon text-white shadow-[0_4px_12px_rgba(178,43,29,0.3)] -translate-y-2' 
+              className={`flex flex-col items-center justify-center w-[72px] h-[64px] rounded-2xl transition-all duration-300 ease-out ${isActive
+                  ? 'bg-gradient-to-br from-brand-saffron to-brand-maroon text-white shadow-[0_4px_12px_rgba(178,43,29,0.3)] -translate-y-2'
                   : 'text-brand-muted hover:text-brand-primary bg-transparent'
-              }`}
+                }`}
             >
               <Icon size={isActive ? 24 : 22} className={`mb-1 transition-transform ${isActive ? 'scale-110' : ''}`} />
               <span className={`text-[10px] font-bold tracking-wide transition-all ${isActive ? 'text-white' : 'font-medium'}`}>
@@ -108,7 +107,7 @@ export default function App() {
       const y = element.getBoundingClientRect().top + window.scrollY - 90;
       window.scrollTo({ top: y, behavior: 'smooth' });
       setActiveSection(id);
-      
+
       if (id === 'venue') {
         // Trigger pulse after scrolling finishes (approx 800ms)
         setTimeout(() => {
@@ -122,13 +121,13 @@ export default function App() {
   return (
     <div className="min-h-screen bg-brand-cream text-brand-text flex justify-center overflow-x-hidden selection:bg-brand-saffron/30">
       <div className="w-full max-w-md bg-brand-cream relative shadow-2xl min-h-screen pb-24 border-x border-brand-gold-border/20">
-        
+
         {/* Sticky Header/Nav (Optional) */}
         <div className={`fixed top-0 left-0 right-0 z-50 flex justify-center transition-all duration-300 ${scrolled ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-full'}`}>
-           <div className="w-full max-w-md bg-brand-cream/95 backdrop-blur-md py-3 px-6 shadow-sm border-b border-brand-gold-border/30 flex justify-between items-center">
-              <span className="font-serif font-bold text-brand-maroon">विवाह सोहळा</span>
-              <span className="text-sm font-medium text-brand-primary">संतोष व सुचित्रा</span>
-           </div>
+          <div className="w-full max-w-md bg-brand-cream/95 backdrop-blur-md py-3 px-6 shadow-sm border-b border-brand-gold-border/30 flex justify-between items-center">
+            <span className="font-serif font-bold text-brand-maroon">विवाह सोहळा</span>
+            <span className="text-sm font-medium text-brand-primary">संतोष व सुचित्रा</span>
+          </div>
         </div>
 
         {/* Top Decorative Border */}
@@ -137,7 +136,7 @@ export default function App() {
         </div>
 
         <main className="px-6 py-8 space-y-12 pb-32">
-          
+
           {/* Section: Invite */}
           <div id="invite" className="space-y-12 scroll-mt-24">
             {/* 1. Hero */}
@@ -231,7 +230,7 @@ export default function App() {
           <RevealOnScroll>
             <section id="rituals" className="space-y-4 scroll-mt-24">
               <h2 className="text-2xl font-bold text-center text-brand-primary mb-6">कार्यक्रम</h2>
-              
+
               {/* Haldi */}
               <div className="flex items-start p-4 bg-brand-surface rounded-xl shadow-sm border border-brand-gold-border/20">
                 <div className="bg-brand-gold/20 p-3 rounded-full mr-4 text-brand-primary mt-1">
@@ -279,9 +278,9 @@ export default function App() {
                   (मुंबई गोवा हायवे) पेट्रोल पंपाजवळ<br />
                   ता. सावंतवाडी, जि. सिंधुदुर्ग
                 </p>
-                <a 
-                  href="https://maps.app.goo.gl/hLBfQwrqyoQcV1VP6?g_st=ac" 
-                  target="_blank" 
+                <a
+                  href="https://maps.app.goo.gl/hLBfQwrqyoQcV1VP6?g_st=ac"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className={`inline-flex items-center justify-center w-full py-3 px-6 bg-gradient-to-r from-brand-primary to-brand-saffron text-white rounded-xl font-semibold shadow-md active:scale-95 transition-transform ${pulseVenue ? 'pulse-map-button' : ''}`}
                 >
@@ -296,17 +295,17 @@ export default function App() {
                 <h3 className="text-xl font-bold text-brand-primary mb-3">निवासस्थान</h3>
                 <p className="text-sm leading-relaxed text-brand-muted mb-4">
                   श्री. भिवसेन तुकाराम गावडे,<br />
-                  सरमळे – नागरतास,<br />
+                  सरमळे – नांगरतास,<br />
                   शितपवाडी,<br />
                   ता. सावंतवाडी, जि. सिंधुदुर्ग
                 </p>
                 <div className="bg-brand-cream/80 py-2 px-4 rounded-lg inline-block text-xs font-medium text-brand-maroon border border-brand-maroon/20 mb-4">
                   टीप: निवासस्थानाहून बस सकाळी ९.०० वाजता सुटेल.
                 </div>
-                
+
                 <div className="pt-4 mt-2 border-t border-brand-gold-border/20 text-sm">
                   <p className="font-bold text-brand-maroon mb-1">व्यवस्थापक:</p>
-                  <p className="text-brand-muted">सरमळे-नागरतास - शितपवाडी ग्रामविकास मंडळ</p>
+                  <p className="text-brand-muted">सरमळे-नांगरतास - शितपवाडी ग्रामविकास मंडळ</p>
                 </div>
               </section>
             </RevealOnScroll>
@@ -319,7 +318,7 @@ export default function App() {
             <RevealOnScroll>
               <section className="text-center space-y-6">
                 <h3 className="text-2xl font-bold text-brand-maroon">आपले स्नेहांकित</h3>
-                
+
                 <div className="space-y-1 font-medium text-brand-primary">
                   <p>श्री. भिवसेन तुकाराम गावडे</p>
                   <p>सौ. यशोदा भिवसेन गावडे</p>
@@ -330,7 +329,7 @@ export default function App() {
                 </p>
 
                 <div className="pt-4">
-                  <button 
+                  <button
                     onClick={() => setIsFamilyListOpen(!isFamilyListOpen)}
                     className="inline-flex items-center text-sm font-semibold text-brand-primary bg-brand-primary/5 py-2 px-6 rounded-full border border-brand-primary/20 hover:bg-brand-primary/10 transition-colors"
                   >
@@ -414,7 +413,7 @@ export default function App() {
         </footer>
 
       </div>
-      
+
       {/* Mobile Bottom Navigation */}
       <BottomNav activeSection={activeSection} onNavigate={handleNavigate} />
     </div>
