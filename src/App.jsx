@@ -190,7 +190,7 @@ export default function App() {
                   <h3 className="text-2xl font-bold text-brand-maroon mb-3">चि. संतोष</h3>
                   <p className="text-sm leading-relaxed text-brand-muted">
                     सौ. व श्री. भिवसेन तुकाराम गावडे<br />
-                    रा. सरमळे – नागरतास, शितपवाडी,<br />
+                    रा. सरमळे – नांगरतास, शितपवाडी,<br />
                     ता. सावंतवाडी, जि. सिंधुदुर्ग<br />
                     यांचा सुपुत्र
                   </p>
@@ -241,7 +241,7 @@ export default function App() {
                   <h3 className="text-xl font-bold text-brand-maroon mb-2">हळदी समारंभ</h3>
                   <div className="space-y-1 text-sm text-brand-muted">
                     <p className="flex items-center"><Calendar size={14} className="mr-2" /> मंगळवार दि. ५ मे २०२६ रोजी</p>
-                    <p className="flex items-center"><Clock size={14} className="mr-2" /> संध्याकाळी ४ वाजता</p>
+                    <p className="flex items-center"><Clock size={14} className="mr-2" /> संध्याकाळी ५ वाजता</p>
                   </div>
                 </div>
               </div>
@@ -358,15 +358,15 @@ export default function App() {
                         "सौ. व श्री. अर्जुन सि. गावडे",
                         "सौ. व श्री. गणपत सि. गावडे",
                         "सौ. व श्री. लवू शि. गावडे(काका)",
-                        "सौ. व श्री. प्रथमेश द. घुजणी(सावंत)",
+                        "सौ. व श्री. प्रथमेश द. चुडजी(सावंत)",
                         "सौ. व श्री. रुक्मिणी कृ. सावंत(आत्या)",
                         "सौ. व श्री. गुरुनाथ मो. गावडे(मामा)",
                         "सौ. व श्री. मदन मो. गावडे(मामा)",
                         "सौ. व श्री. विनोद मो. गावडे(मामा)",
-                        "सौ. व श्री. देवदास मो. गावडे(मामा)",
+                        "सौ. व श्री. देविदास मो. गावडे(मामा)",
                         "सौ. व श्री. दत्तात्रय कृ. चुडजी (सावंत)",
                         "सौ. व श्री. संदेश मो. गावडे(मामा)",
-                        "सौ. व श्री. मोहन नि. गावडे(आजोबा)"
+                        "सौ. व श्री. मोहन भि. गावडे(आजोबा)"
                       ].map((name, i) => (
                         <p key={i} className="py-1 border-b border-brand-cream last:border-0">{name}</p>
                       ))}
