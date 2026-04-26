@@ -176,17 +176,18 @@ export default function App() {
             <Divider />
 
             {/* 2. Couple Introduction */}
+            {/* 2. Couple Introduction */}
             <RevealOnScroll>
-              <section className="space-y-6">
+              <section className="space-y-8 sm:space-y-12">
                 {/* Groom */}
-                <div className="glass-card pt-6 px-4 sm:px-6 pb-0 border-t-4 border-t-brand-primary relative overflow-hidden group">
-                  <div className="absolute top-2 right-4 p-2 opacity-[0.04] pointer-events-none">
+                <div className="glass-card py-6 px-4 sm:px-6 border-t-4 border-t-brand-primary relative overflow-visible group min-h-[280px] flex items-center">
+                  <div className="absolute top-4 right-4 p-2 opacity-[0.04] pointer-events-none z-0">
                     <Heart size={100} />
                   </div>
-                  <div className="absolute bottom-0 right-4 w-32 h-32 bg-brand-primary/15 blur-3xl rounded-full pointer-events-none"></div>
+                  <div className="absolute bottom-0 right-4 w-40 h-40 bg-brand-primary/15 blur-3xl rounded-full pointer-events-none z-0"></div>
                   
-                  <div className="flex items-end justify-between gap-2 relative z-10">
-                    <div className="text-center flex-1 pb-6">
+                  <div className="w-[55%] sm:w-1/2 relative z-10 pr-2">
+                    <div className="text-center">
                       <span className="inline-block px-4 py-1 bg-brand-primary/10 text-brand-primary font-bold text-sm rounded-full mb-3">
                         वर
                       </span>
@@ -198,24 +199,32 @@ export default function App() {
                         यांचा सुपुत्र
                       </p>
                     </div>
-                    <div className="w-32 sm:w-40 flex-shrink-0 relative z-10 flex justify-center translate-y-1">
-                      <img src="/groom.png" alt="संतोष" className="w-full h-auto object-contain drop-shadow-[0_10px_15px_rgba(143,78,0,0.3)]" onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/200x300/transparent/8f4e00?text=Groom' }} />
-                    </div>
                   </div>
+
+                  <img 
+                    src="/groom.png" 
+                    alt="संतोष" 
+                    className="absolute bottom-0 right-0 w-[55%] sm:w-[45%] h-[110%] object-contain object-bottom drop-shadow-[0_10px_15px_rgba(143,78,0,0.3)] z-10 pointer-events-none -mb-1" 
+                    onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/200x350/transparent/8f4e00?text=Groom' }} 
+                  />
                 </div>
 
                 {/* Bride */}
-                <div className="glass-card pt-6 px-4 sm:px-6 pb-0 border-t-4 border-t-brand-saffron relative overflow-hidden group">
-                  <div className="absolute top-2 left-4 p-2 opacity-[0.04] pointer-events-none">
+                <div className="glass-card py-6 px-4 sm:px-6 border-t-4 border-t-brand-saffron relative overflow-visible group min-h-[280px] flex items-center justify-end">
+                  <div className="absolute top-4 left-4 p-2 opacity-[0.04] pointer-events-none z-0">
                     <Heart size={100} />
                   </div>
-                  <div className="absolute bottom-0 left-4 w-32 h-32 bg-brand-saffron/15 blur-3xl rounded-full pointer-events-none"></div>
+                  <div className="absolute bottom-0 left-4 w-40 h-40 bg-brand-saffron/15 blur-3xl rounded-full pointer-events-none z-0"></div>
 
-                  <div className="flex items-end justify-between gap-2 relative z-10">
-                    <div className="w-32 sm:w-40 flex-shrink-0 relative z-10 flex justify-center translate-y-1">
-                      <img src="/bride.png" alt="सुचित्रा" className="w-full h-auto object-contain drop-shadow-[0_10px_15px_rgba(178,43,29,0.3)]" onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/200x300/transparent/8f4e00?text=Bride' }} />
-                    </div>
-                    <div className="text-center flex-1 pb-6">
+                  <img 
+                    src="/bride.png" 
+                    alt="सुचित्रा" 
+                    className="absolute bottom-0 left-0 w-[55%] sm:w-[45%] h-[110%] object-contain object-bottom drop-shadow-[0_10px_15px_rgba(178,43,29,0.3)] z-10 pointer-events-none -mb-1" 
+                    onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/200x350/transparent/8f4e00?text=Bride' }} 
+                  />
+
+                  <div className="w-[55%] sm:w-1/2 relative z-10 pl-2">
+                    <div className="text-center">
                       <span className="inline-block px-4 py-1 bg-brand-saffron/10 text-brand-primary font-bold text-sm rounded-full mb-3">
                         वधू
                       </span>
