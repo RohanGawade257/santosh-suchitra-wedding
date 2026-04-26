@@ -207,7 +207,7 @@ export default function App() {
                   <h3 className="text-2xl font-bold text-brand-maroon mb-3">चि. सौ. कां. सुचित्रा</h3>
                   <p className="text-sm leading-relaxed text-brand-muted">
                     कै. सुरेश राऊळ<br />
-                    मु. आरोंदा – गावडेवाडी,<br />
+                    मु. आरोंदा – गावेळवाडी,<br />
                     ता. सावंतवाडी<br />
                     यांची कनिष्ठ कन्या
                   </p>
@@ -306,7 +306,7 @@ export default function App() {
                 
                 <div className="pt-4 mt-2 border-t border-brand-gold-border/20 text-sm">
                   <p className="font-bold text-brand-maroon mb-1">व्यवस्थापक:</p>
-                  <p className="text-brand-muted">सरमळे-नागरतास - शिरपवाडी ग्रामविकास मंडळ</p>
+                  <p className="text-brand-muted">सरमळे-नागरतास - शितपवाडी ग्रामविकास मंडळ</p>
                 </div>
               </section>
             </RevealOnScroll>
@@ -384,7 +384,7 @@ export default function App() {
                 </div>
                 <h3 className="text-lg font-bold text-brand-maroon mb-4 mt-2">आमच्या दादा / मामाच्या लग्नाला यायचं हं...!</h3>
                 <p className="text-sm font-medium leading-relaxed text-brand-primary">
-                  नक्षत्र, गणेश, सोहम, रोहन, रितिक, मयुरी, तनमयी, कनिष्का, श्रावणी, श्रेया, श्रेयश, गौरी
+                  नक्श, गणेश, सोहम, रोहन, रितिक, मयुरी, तनमयी, कनिष्का, श्रावणी, श्रेया, श्रेयश, गौरी
                 </p>
               </section>
             </RevealOnScroll>
