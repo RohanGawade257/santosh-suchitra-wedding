@@ -144,9 +144,9 @@ export default function App() {
             <RevealOnScroll>
               <section className="text-center space-y-6">
                 <div className="space-y-1 text-sm md:text-base font-semibold text-brand-primary">
-                  <p>॥ श्री गजानन प्रसन्न ॥</p>
-                  <p>॥ श्री चेतन्य कुलदेवताय प्रसन्न ॥ ॥ श्री देवी सातेरी भगवती प्रसन्न ॥</p>
-                  <p>॥ श्री देव मुळपुरुष प्रसन्न ॥ ॥ श्री देव रामेश्वर प्रसन्न ॥</p>
+                  <p>।। श्री गजानन प्रसन्न ।।</p>
+                  <p>।। श्री चैतन्य कुलदेवताय प्रसन्न ।। श्री देवी सातेरी भगवती प्रसन्न ।।</p>
+                  <p>।। श्री देव मुळपुरुष प्रसन्न || श्री देव रामरटकार प्रसन्न ।।</p>
                 </div>
 
                 <div className="py-4">
@@ -189,9 +189,10 @@ export default function App() {
                   </span>
                   <h3 className="text-2xl font-bold text-brand-maroon mb-3">चि. संतोष</h3>
                   <p className="text-sm leading-relaxed text-brand-muted">
-                    सौ. व श्री. शिवसेन तुकाराम गावडे<br />
-                    रा. सरमळे – नागरतास, शिरपवाडी,<br />
-                    ता. सावंतवाडी, जि. सिंधुदुर्ग
+                    सौ. व श्री. भिवसेन तुकाराम गावडे<br />
+                    रा. सरमळे – नागरतास, शितपवाडी,<br />
+                    ता. सावंतवाडी, जि. सिंधुदुर्ग<br />
+                    यांचा सुपुत्र
                   </p>
                 </div>
 
@@ -206,8 +207,9 @@ export default function App() {
                   <h3 className="text-2xl font-bold text-brand-maroon mb-3">चि. सौ. कां. सुचित्रा</h3>
                   <p className="text-sm leading-relaxed text-brand-muted">
                     कै. सुरेश राऊळ<br />
-                    मु. आरोस – गाववाडी,<br />
-                    ता. सावंतवाडी
+                    मु. आरोंदा – गावडेवाडी,<br />
+                    ता. सावंतवाडी<br />
+                    यांची कनिष्ठ कन्या
                   </p>
                 </div>
               </section>
@@ -238,7 +240,7 @@ export default function App() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-maroon mb-2">हळदी समारंभ</h3>
                   <div className="space-y-1 text-sm text-brand-muted">
-                    <p className="flex items-center"><Calendar size={14} className="mr-2" /> मंगळवार, दि. ५ मे २०२६</p>
+                    <p className="flex items-center"><Calendar size={14} className="mr-2" /> मंगळवार दि. ५ मे २०२६ रोजी</p>
                     <p className="flex items-center"><Clock size={14} className="mr-2" /> संध्याकाळी ४ वाजता</p>
                   </div>
                 </div>
@@ -252,9 +254,9 @@ export default function App() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-maroon mb-2">विवाह मुहूर्त</h3>
                   <div className="space-y-1 text-sm text-brand-muted">
-                    <p className="font-medium text-brand-primary mb-1">मिती वैशाख कृ. ४, शके १९४८</p>
-                    <p className="flex items-center"><Calendar size={14} className="mr-2" /> बुधवार, दि. ६ मे २०२६</p>
-                    <p className="flex items-center"><Clock size={14} className="mr-2" /> दुपारी १२ वा. ३९ मि.</p>
+                    <p className="font-medium text-brand-primary mb-1">मिती वैशाख कृ. ४ शके १९४८</p>
+                    <p className="flex items-center"><Calendar size={14} className="mr-2" /> बुधवार दि. ६ मे २०२६ रोजी</p>
+                    <p className="flex items-center"><Clock size={14} className="mr-2" /> दुपारी १२ वा. ३१ मि.</p>
                   </div>
                 </div>
               </div>
@@ -293,9 +295,9 @@ export default function App() {
               <section className="bg-brand-surface p-6 rounded-xl text-center border border-brand-gold-border/20">
                 <h3 className="text-xl font-bold text-brand-primary mb-3">निवासस्थान</h3>
                 <p className="text-sm leading-relaxed text-brand-muted mb-4">
-                  श्री. शिवसेन तुकाराम गावडे,<br />
+                  श्री. भिवसेन तुकाराम गावडे,<br />
                   सरमळे – नागरतास,<br />
-                  शिरपवाडी,<br />
+                  शितपवाडी,<br />
                   ता. सावंतवाडी, जि. सिंधुदुर्ग
                 </p>
                 <div className="bg-brand-cream/80 py-2 px-4 rounded-lg inline-block text-xs font-medium text-brand-maroon border border-brand-maroon/20 mb-4">
@@ -319,12 +321,12 @@ export default function App() {
                 <h3 className="text-2xl font-bold text-brand-maroon">आपले स्नेहांकित</h3>
                 
                 <div className="space-y-1 font-medium text-brand-primary">
-                  <p>श्री. शिवसेन तुकाराम गावडे</p>
-                  <p>सौ. यशोदा शिवसेन गावडे</p>
+                  <p>श्री. भिवसेन तुकाराम गावडे</p>
+                  <p>सौ. यशोदा भिवसेन गावडे</p>
                 </div>
 
                 <p className="text-sm text-brand-muted px-4 font-medium">
-                  समस्त गावडे, माधव, देसाई, सावंत परिवार, आप्तेष्ट व मित्रमंडळी
+                  समस्त गावडे, माधव देसाई, सावंत परिवार, आप्तेष्ट व मित्रमंडळी
                 </p>
 
                 <div className="pt-4">
@@ -339,15 +341,32 @@ export default function App() {
                   <div className={`overflow-hidden transition-all duration-500 ease-in-out ${isFamilyListOpen ? 'max-h-[1000px] opacity-100 mt-6' : 'max-h-0 opacity-0'}`}>
                     <div className="grid grid-cols-1 gap-2 text-sm text-brand-muted bg-brand-surface p-4 rounded-xl border border-brand-gold-border/20">
                       {[
-                        "सौ. व श्री. विठ्ठल सि. गावडे", "सौ. व श्री. नारायण रा. गावडे", "सौ. व श्री. सुभाष सा. गावडे",
-                        "सौ. व श्री. अनंत ज. गावडे", "सौ. व श्री. अशोक अ. गावडे", "सौ. व श्री. आत्माराम द. गावडे",
-                        "सौ. व श्री. प्रकाश ल. गावडे", "सौ. व श्री. कृष्णा ग. गावडे", "सौ. व श्री. रामकृष्ण बा. गावडे",
-                        "सौ. व श्री. गुरुदास श्री. गावडे", "सौ. व श्री. रामचंद्र रा. गावडे", "सौ. व श्री. सहदेव श्री. गावडे",
-                        "सौ. व श्री. जिवाजी वि. गावडे", "सौ. व श्री. राजेश बा. गावडे", "सौ. व श्री. अर्जुन सि. गावडे",
-                        "सौ. व श्री. गणपत सि. गावडे", "सौ. व श्री. लवू शि. गावडे", "सौ. व श्री. प्रथमेश द. घुजणी",
-                        "सौ. व श्री. रुक्मिणी कृ. सावंत", "सौ. व श्री. गुरुनाथ मो. गावडे", "सौ. व श्री. मदन मा. गावडे",
-                        "सौ. व श्री. विनोद मो. गावडे", "सौ. व श्री. देवदास मा. गावडे", "सौ. व श्री. दत्ताराम कु. घुजणी",
-                        "सौ. व श्री. संदेश मो. गावडे", "सौ. व श्री. मोहन नि. गावडे"
+                        "सौ. व श्री. विठ्ठल सि. गावडे",
+                        "सौ. व श्री. नारायण रा. गावडे",
+                        "सौ. व श्री. सगुण रा. गावडे",
+                        "सौ. व श्री. अनंत ज. गावडे",
+                        "सौ. व श्री. अशोक अ. गावडे",
+                        "सौ. व श्री. आत्माराम द. गावडे",
+                        "सौ. व श्री. प्रकाश ल. गावडे",
+                        "सौ. व श्री. कृष्णा ग. गावडे",
+                        "सौ. व श्री. रामकृष्ण बा. गावडे",
+                        "सौ. व श्री. गुरुदास श्री. गावडे",
+                        "सौ. व श्री. रामचंद्र रा. गावडे",
+                        "सौ. व श्री. सहदेव श्री. गावडे",
+                        "सौ. व श्री. जिवाजी वि. गावडे",
+                        "सौ. व श्री. राजेश बा. गावडे",
+                        "सौ. व श्री. अर्जुन सि. गावडे",
+                        "सौ. व श्री. गणपत सि. गावडे",
+                        "सौ. व श्री. लवू शि. गावडे(काका)",
+                        "सौ. व श्री. प्रथमेश द. घुजणी(सावंत)",
+                        "सौ. व श्री. रुक्मिणी कृ. सावंत(आत्या)",
+                        "सौ. व श्री. गुरुनाथ मो. गावडे(मामा)",
+                        "सौ. व श्री. मदन मा. गावडे(मामा)",
+                        "सौ. व श्री. विनोद मो. गावडे(मामा)",
+                        "सौ. व श्री. देवदास मा. गावडे(मामा)",
+                        "सौ. व श्री. दत्तात्रय कृ. चुडजी (सावंत)",
+                        "सौ. व श्री. संदेश मो. गावडे(मामा)",
+                        "सौ. व श्री. मोहन नि. गावडे(आजोबा)"
                       ].map((name, i) => (
                         <p key={i} className="py-1 border-b border-brand-cream last:border-0">{name}</p>
                       ))}
