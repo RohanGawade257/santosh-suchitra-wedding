@@ -39,8 +39,8 @@ const BottomNav = ({ activeSection, onNavigate }) => {
               key={id}
               onClick={() => onNavigate(id)}
               className={`flex flex-col items-center justify-center w-[72px] h-[64px] rounded-2xl transition-all duration-300 ease-out ${isActive
-                  ? 'bg-gradient-to-br from-brand-saffron to-brand-maroon text-white shadow-[0_4px_12px_rgba(178,43,29,0.3)] -translate-y-2'
-                  : 'text-brand-muted hover:text-brand-primary bg-transparent'
+                ? 'bg-gradient-to-br from-brand-saffron to-brand-maroon text-white shadow-[0_4px_12px_rgba(178,43,29,0.3)] -translate-y-2'
+                : 'text-brand-muted hover:text-brand-primary bg-transparent'
                 }`}
             >
               <Icon size={isActive ? 24 : 22} className={`mb-1 transition-transform ${isActive ? 'scale-110' : ''}`} />
@@ -179,37 +179,55 @@ export default function App() {
             <RevealOnScroll>
               <section className="space-y-6">
                 {/* Groom */}
-                <div className="glass-card p-6 text-center border-t-4 border-t-brand-primary relative overflow-hidden group">
-                  <div className="absolute top-0 right-0 p-2 opacity-10">
-                    <Heart size={64} />
+                <div className="glass-card pt-6 px-4 sm:px-6 pb-0 border-t-4 border-t-brand-primary relative overflow-hidden group">
+                  <div className="absolute top-2 right-4 p-2 opacity-[0.04] pointer-events-none">
+                    <Heart size={100} />
                   </div>
-                  <span className="inline-block px-3 py-1 bg-brand-primary/10 text-brand-primary font-bold text-sm rounded-full mb-3">
-                    वर
-                  </span>
-                  <h3 className="text-2xl font-bold text-brand-maroon mb-3">चि. संतोष</h3>
-                  <p className="text-sm leading-relaxed text-brand-muted">
-                    सौ. व श्री. भिवसेन तुकाराम गावडे<br />
-                    रा. सरमळे – नांगरतास, शितपवाडी,<br />
-                    ता. सावंतवाडी, जि. सिंधुदुर्ग<br />
-                    यांचा सुपुत्र
-                  </p>
+                  <div className="absolute bottom-0 right-4 w-32 h-32 bg-brand-primary/15 blur-3xl rounded-full pointer-events-none"></div>
+                  
+                  <div className="flex items-end justify-between gap-2 relative z-10">
+                    <div className="text-center flex-1 pb-6">
+                      <span className="inline-block px-4 py-1 bg-brand-primary/10 text-brand-primary font-bold text-sm rounded-full mb-3">
+                        वर
+                      </span>
+                      <h3 className="text-xl sm:text-2xl font-bold text-brand-maroon mb-3 drop-shadow-sm">चि. संतोष</h3>
+                      <p className="text-[13px] sm:text-sm leading-relaxed text-brand-muted font-medium">
+                        सौ. व श्री. भिवसेन तुकाराम गावडे<br />
+                        रा. सरमळे – नांगरतास, शितपवाडी,<br />
+                        ता. सावंतवाडी, जि. सिंधुदुर्ग<br />
+                        यांचा सुपुत्र
+                      </p>
+                    </div>
+                    <div className="w-32 sm:w-40 flex-shrink-0 relative z-10 flex justify-center translate-y-1">
+                      <img src="/groom.png" alt="संतोष" className="w-full h-auto object-contain drop-shadow-[0_10px_15px_rgba(143,78,0,0.3)]" onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/200x300/transparent/8f4e00?text=Groom' }} />
+                    </div>
+                  </div>
                 </div>
 
                 {/* Bride */}
-                <div className="glass-card p-6 text-center border-t-4 border-t-brand-saffron relative overflow-hidden">
-                  <div className="absolute top-0 left-0 p-2 opacity-10">
-                    <Heart size={64} />
+                <div className="glass-card pt-6 px-4 sm:px-6 pb-0 border-t-4 border-t-brand-saffron relative overflow-hidden group">
+                  <div className="absolute top-2 left-4 p-2 opacity-[0.04] pointer-events-none">
+                    <Heart size={100} />
                   </div>
-                  <span className="inline-block px-3 py-1 bg-brand-saffron/10 text-brand-primary font-bold text-sm rounded-full mb-3">
-                    वधू
-                  </span>
-                  <h3 className="text-2xl font-bold text-brand-maroon mb-3">चि. सौ. कां. सुचित्रा</h3>
-                  <p className="text-sm leading-relaxed text-brand-muted">
-                    कै. सुरेश राऊळ<br />
-                    मु. आरोंदा – गावेळवाडी,<br />
-                    ता. सावंतवाडी<br />
-                    यांची कनिष्ठ कन्या
-                  </p>
+                  <div className="absolute bottom-0 left-4 w-32 h-32 bg-brand-saffron/15 blur-3xl rounded-full pointer-events-none"></div>
+
+                  <div className="flex items-end justify-between gap-2 relative z-10">
+                    <div className="w-32 sm:w-40 flex-shrink-0 relative z-10 flex justify-center translate-y-1">
+                      <img src="/bride.png" alt="सुचित्रा" className="w-full h-auto object-contain drop-shadow-[0_10px_15px_rgba(178,43,29,0.3)]" onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/200x300/transparent/8f4e00?text=Bride' }} />
+                    </div>
+                    <div className="text-center flex-1 pb-6">
+                      <span className="inline-block px-4 py-1 bg-brand-saffron/10 text-brand-primary font-bold text-sm rounded-full mb-3">
+                        वधू
+                      </span>
+                      <h3 className="text-xl sm:text-2xl font-bold text-brand-maroon mb-3 drop-shadow-sm">चि. सौ. कां. सुचित्रा</h3>
+                      <p className="text-[13px] sm:text-sm leading-relaxed text-brand-muted font-medium">
+                        कै. सुरेश राऊळ<br />
+                        मु. आरोंदा – गावेळवाडी,<br />
+                        ता. सावंतवाडी<br />
+                        यांची कनिष्ठ कन्या
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </section>
             </RevealOnScroll>
